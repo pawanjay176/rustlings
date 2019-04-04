@@ -8,7 +8,15 @@
 // the price of an order of apples given the order amount. No hints this time!
 
 // Put your function here!
-// fn ..... {
+
+fn calculateprice(amount: u64) -> u64 {
+    if(amount>40) {
+        amount
+    }
+    else {
+        amount*2
+    }
+}
 
 // Don't modify this function!
 #[test]
